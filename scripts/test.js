@@ -54,7 +54,7 @@ $(document).ready(function() {
     /* making the timer still, needs to be fixed */
 
 
-    $("#title").click(function() {
+    $(".start").click(function() {
         function timerB() {
 
             counterB = counterB - 1;

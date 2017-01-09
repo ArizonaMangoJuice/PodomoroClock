@@ -225,6 +225,26 @@ body {
     height: 250px;
 }
 
+.start {
+    position: absolute;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    top: 40%;
+    left: 30%;
+    padding: 12px;
+    font-family: 'Righteous';
+    cursor: pointer;
+    border-radius: 2px;
+    z-index: 1;
+}
+
+.start:hover {
+    transition: 1s;
+    background: #fff;
+    color: #000;
+}
+
 .pause {
     position: absolute;
     height: 40px;
@@ -236,6 +256,7 @@ body {
     font-family: 'Righteous';
     cursor: pointer;
     border-radius: 2px;
+    z-index: 1;
 }
 
 .pause:hover {
